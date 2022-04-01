@@ -1,87 +1,112 @@
+.hitbox{
+    border:  solid rgb(113, 27, 199);
+    margin: 0 auto;
+    min-width: 1800px;
+    max-width: 1800px;
+}
 .layout{
-    border: solid ;
-    width: 1600px;
-    padding: 50px;
-    height: 5px;
+    border: solid brown  ;
+    width: 1700px;
+    
+    height: 70px;
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 40px;
+    text-align: center;
     display: inline-block;
 }
 
 .slider{
-    border: solid ;
-    width: 1600px;
-    padding: 50px;
+    border: solid purple  ;
+    width: 1700px;   
     height: 100px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 40px;
     display: inline-block;
+    
+    max-height: auto;
 }
 
 .base{
-    border: solid ;
+    position: relative;
+    border: solid green ;
     width: 1600px;
     padding: 50px;
     height: 430px;
-    margin-bottom: 70px;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: inline-block;
-}
 
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 40px;
+    display: inline-block;
+    max-width: auto;
+    min-inline-size: auto;
+
+}
 
 
 .caja1{
-margin-left: 150px;
+    
+    margin-left: 150px;    
+
 }
 
-
 .caja2{
-    margin-left: 80px;
-    margin-right: 80px;
+    
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .caja3{
-margin-right: 150px;
+    
+    margin-right: 150px;
+}
+
+.text{
+    
+    text-align: center;
+    display: inline-block;
+
 }
 
 /*herencia*/
 .base> div{
+    
     border: solid ;
     width: 250px;
     padding: 50px;
     height: 340px;
-    /*margin: 10px;*/
-    /*margin-bottom: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0%;*/
+    border: solid blue ;
+    text-align: center;
     display: inline-block;
 }
 
 .caja1>div{
     width: 230px;
     height: 160px;
-    margin: 1px;
-    border: double red 1px;
-
+    margin: auto ;
+    border: solid red ;
 }
 
 .caja2>div{
     width: 230px;
     height: 160px;
-    margin: 1px;
-    border: double red 1px;
+    margin: auto;
+    border: solid red ;
 
 }
 
 .caja3>div{
     width: 230px;
     height: 160px;
-    margin: 1px;
-    border: double red 1px;
+    margin: auto;
+    border: solid red ;
 
+}
+
+/*Imagenes*/
+.post-img{
+    width: 100%;
+    max-height: auto;
 }
